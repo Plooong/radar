@@ -2,10 +2,10 @@
   "title": "Tech Radar",
   "date": "2024.06",
   "quadrants": [
-      {"name": "Languages", "title": "languages"},
-      {"name": "Infrastructure", "title": "infrastructure"},
-      {"name": "Datastores", "title": "datastores"},
-      {"name": "Data Management", "title": "data_management"}
+      {"name": "Languages", "title": "languages", "id": "languages"},
+      {"name": "Infrastructure", "title": "infrastructure", "id": "infrastructure"},
+      {"name": "Datastores", "title": "datastores", "id": "datastores"},
+      {"name": "Data Management", "title": "data_management", "id": "data_management"}
     ],
   "rings": [
       {"name": "ADOPT", "color":"#5ba300", "id": "adopt"},
