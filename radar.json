@@ -15,7 +15,7 @@
   ],
   "entries": [
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "AWS Athena",
       "active": true,
       "key": "aws_athena",
@@ -30,7 +30,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "AWS EMR",
       "active": true,
       "key": "aws_emr",
@@ -45,7 +45,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "ring": 2,
       "label": "AWS Glue",
       "active": true,
@@ -62,7 +62,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "AWS Lake Formation",
       "active": true,
       "key": "aws_lake_formation",
@@ -77,7 +77,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "Airflow",
       "active": true,
       "key": "airflow",
@@ -92,7 +92,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "Databricks",
       "active": true,
       "key": "databricks",
@@ -107,7 +107,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "Flink",
       "link": "https://engineering.zalando.com/tags/apache-flink.html",
       "active": true,
@@ -123,7 +123,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "Google BigQuery",
       "active": true,
       "key": "google_bigquery",
@@ -138,7 +138,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "Presto",
       "active": true,
       "key": "presto",
@@ -153,7 +153,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "Spark",
       "link": "https://engineering.zalando.com/tags/apache-spark.html",
       "active": true,
@@ -169,7 +169,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "Streamlit",
       "active": true,
       "moved": 0,
@@ -185,7 +185,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "dbt",
       "active": true,
       "key": "dbt",
@@ -200,7 +200,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "AWS DynamoDB",
       "active": true,
       "key": "aws_dynamodb",
@@ -215,7 +215,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "AWS S3",
       "active": true,
       "key": "aws_s3",
@@ -230,7 +230,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Amazon ElastiCache",
       "link": "https://engineering.zalando.com/tags/redis.html",
       "active": true,
@@ -246,7 +246,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Amazon MemoryDB",
       "active": true,
       "key": "aws_memory_db",
@@ -261,7 +261,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Amazon Redshift",
       "active": true,
       "key": "aws_redshift",
@@ -276,7 +276,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Amazon Feature Store",
       "active": true,
       "moved": 0,
@@ -292,7 +292,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Apache Cassandra",
       "link": "https://engineering.zalando.com/tags/cassandra.html",
       "active": true,
@@ -308,7 +308,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Consul",
       "active": true,
       "key": "consul",
@@ -323,7 +323,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Druid",
       "active": true,
       "key": "druid",
@@ -338,7 +338,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Elasticsearch",
       "link": "https://engineering.zalando.com/tags/elasticsearch.html",
       "active": true,
@@ -354,7 +354,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Exasol",
       "active": true,
       "key": "exasol",
@@ -369,7 +369,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "HBase",
       "active": true,
       "key": "hbase",
@@ -384,7 +384,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "HDFS",
       "active": true,
       "key": "hdfs",
@@ -399,7 +399,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Hazelcast",
       "active": true,
       "key": "hazelcast",
@@ -414,7 +414,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Memcached",
       "active": true,
       "key": "memcached",
@@ -429,7 +429,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "MongoDB",
       "active": true,
       "key": "mongodb",
@@ -444,7 +444,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "MySQL",
       "active": true,
       "key": "mysql",
@@ -459,7 +459,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Oracle DB",
       "active": true,
       "key": "oracledb",
@@ -474,7 +474,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "PostgreSQL",
       "link": "https://engineering.zalando.com/tags/postgresql.html",
       "active": true,
@@ -490,7 +490,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Redis",
       "link": "https://engineering.zalando.com/tags/redis.html",
       "active": true,
@@ -506,7 +506,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "RocksDB",
       "active": true,
       "key": "rocksdb",
@@ -521,7 +521,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Solr",
       "active": true,
       "key": "solr",
@@ -536,7 +536,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "Valkey",
       "link": "https://engineering.zalando.com/tags/redis.html",
       "active": true,
@@ -552,7 +552,7 @@
           }]
     },
     {
-      "quadrant": 2,
+      "quadrant": "datastores",
       "label": "ZooKeeper",
       "active": true,
       "key": "zookeeper",
@@ -567,7 +567,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "AWS CloudFormation",
       "active": true,
       "key": "aws_cloudformation",
@@ -582,7 +582,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "AWS CloudFront",
       "active": true,
       "key": "aws_cloudfront",
@@ -597,7 +597,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "AWS Elemental MediaConvert",
       "active": true,
       "key": "aws_elemental_mediaconvert",
@@ -612,7 +612,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "AWS Lambda",
       "active": true,
       "key": "aws_lambda",
@@ -627,7 +627,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "AWS Service Catalog",
       "active": true,
       "key": "aws_service_catalog",
@@ -642,7 +642,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "AWS Step Functions",
       "active": true,
       "key": "aws_step_functions",
@@ -657,7 +657,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "Amazon Bedrock",
       "active": true,
       "key": "aws_bedrock",
@@ -672,7 +672,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "Amazon Pinpoint",
       "active": true,
       "key": "aws_pinpoint",
@@ -687,7 +687,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "Amazon SageMaker",
       "active": true,
       "key": "aws_sagemaker",
@@ -702,7 +702,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "Docker",
       "link": "https://engineering.zalando.com/tags/docker.html",
       "active": true,
@@ -718,7 +718,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "GraalVM",
       "active": true,
       "key": "graalvm",
@@ -733,7 +733,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "Kotlin Multiplatform",
       "active": true,
       "key": "kotlin_multiplatform",
@@ -748,7 +748,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "Kubernetes",
       "link": "https://engineering.zalando.com/tags/kubernetes.html",
       "active": true,
@@ -764,7 +764,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "Open Policy Agent",
       "active": true,
       "key": "open_policy_agent",
@@ -779,7 +779,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "OpenTelemetry",
       "active": true,
       "key": "open_telemetry",
@@ -794,7 +794,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "Skipper",
       "active": true,
       "key": "skippier",
@@ -809,7 +809,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "Slurm",
       "active": true,
       "key": "slurm",
@@ -824,7 +824,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "WebAssembly",
       "active": true,
       "key": "web_assembly",
@@ -839,7 +839,7 @@
           }]
     },
     {
-      "quadrant": 1,
+      "quadrant": "infrastructure",
       "label": "ZMON",
       "active": true,
       "key": "zmon",
@@ -854,7 +854,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Clojure",
       "link": "https://engineering.zalando.com/tags/clojure.html",
       "active": true,
@@ -870,7 +870,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Dart",
       "active": true,
       "key": "dart",
@@ -885,7 +885,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Go",
       "link": "https://engineering.zalando.com/tags/golang.html",
       "active": true,
@@ -901,7 +901,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "GraphQL",
       "link": "https://engineering.zalando.com/tags/graphql.html",
       "active": true,
@@ -917,7 +917,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Haskell",
       "link": "https://engineering.zalando.com/tags/haskell.html",
       "active": true,
@@ -933,7 +933,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Java",
       "link": "https://engineering.zalando.com/tags/java.html",
       "active": true,
@@ -949,7 +949,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "JavaScript",
       "link": "https://engineering.zalando.com/tags/javascript.html",
       "active": true,
@@ -965,7 +965,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Kotlin",
       "link": "https://engineering.zalando.com/tags/kotlin.html",
       "active": true,
@@ -981,7 +981,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "OpenAPI (Swagger)",
       "link": "https://engineering.zalando.com/tags/openapi.html",
       "active": true,
@@ -997,7 +997,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Python",
       "link": "https://engineering.zalando.com/tags/python.html",
       "active": true,
@@ -1013,7 +1013,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "R",
       "active": true,
       "key": "r",
@@ -1028,7 +1028,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Rust",
       "link": "https://engineering.zalando.com/tags/rust.html",
       "active": true,
@@ -1044,7 +1044,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Scala",
       "link": "https://engineering.zalando.com/tags/scala.html",
       "active": true,
@@ -1060,7 +1060,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "Swift",
       "link": "https://engineering.zalando.com/tags/swift.html",
       "active": true,
@@ -1076,7 +1076,7 @@
           }]
     },
     {
-      "quadrant": 0,
+      "quadrant": "languages",
       "label": "TypeScript",
       "link": "https://engineering.zalando.com/tags/typescript.html",
       "active": true,
@@ -1092,7 +1092,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "AWS Kinesis",
       "active": true,
       "key": "aws_kinesis",
@@ -1107,7 +1107,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "AWS SNS",
       "active": true,
       "key": "aws_sns",
@@ -1122,7 +1122,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "AWS SQS",
       "active": true,
       "key": "aws_sqs",
@@ -1137,7 +1137,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "Kafka",
       "link": "https://engineering.zalando.com/tags/apache-kafka.html",
       "active": true,
@@ -1153,7 +1153,7 @@
           }]
     },
     {
-      "quadrant": 3,
+      "quadrant": "data_management",
       "label": "RabbitMQ",
       "link": "https://engineering.zalando.com/tags/rabbitmq.html",
       "active": true,
