@@ -1,1172 +1,862 @@
 {
-  "title": "Tech Radar",
-  "date": "2024.06",
-  "quadrants": [
-      {"name": "Languages", "title": "languages", "id": "languages"},
-      {"name": "Infrastructure", "title": "infrastructure", "id": "infrastructure"},
-      {"name": "Datastores", "title": "datastores", "id": "datastores"},
-      {"name": "Data Management", "title": "data_management", "id": "data_management"}
+    "title": "Tech Radar",
+    "date": "2024.06",
+    "quadrants": [
+        {"name": "Languages", "title": "languages", "id": "languages"},
+        {"name": "Infrastructures", "title": "infrastructure", "id": "infrastructure"},
+        {"name": "Datastores", "title": "datastores", "id": "datastores"},
+        {"name": "Data Management", "title": "data_management", "id": "data_management"}
+      ],
+    "rings": [
+        {"name": "ADOPT", "color":"#5ba300", "id": "adopt"},
+        {"name": "TRIAL", "color":"#009eb0", "id": "trial"},
+        {"name": "ASSESS", "color":"#c7ba00", "id": "assess"},
+        {"name": "HOLD", "color": "#e09b96", "id": "hold"}
     ],
-  "rings": [
-      {"name": "ADOPT", "color":"#5ba300", "id": "adopt"},
-      {"name": "TRIAL", "color":"#009eb0", "id": "trial"},
-      {"name": "ASSESS", "color":"#c7ba00", "id": "assess"},
-      {"name": "HOLD", "color": "#e09b96", "id": "hold"}
-  ],
-  "entries": [
-    {
-      "quadrant": "data_management",
-      "label": "AWS Athena",
-      "active": true,
-      "key": "aws_athena",
-      "id": "aws_athena",
-      "title": "AWS Athena",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "AWS EMR",
-      "active": true,
-      "key": "aws_emr",
-      "id": "aws_emr",
-      "title": "AWS EMR",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "ring": 2,
-      "label": "AWS Glue",
-      "active": true,
-      "moved": 0,
-      "key": "aws_glue",
-      "id": "aws_glue",
-      "title": "AWS Glue",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "AWS Lake Formation",
-      "active": true,
-      "key": "aws_lake_formation",
-      "id": "aws_lake_formation",
-      "title": "AWS Lake Formation",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "Airflow",
-      "active": true,
-      "key": "airflow",
-      "id": "airflow",
-      "title": "Airflow",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "Databricks",
-      "active": true,
-      "key": "databricks",
-      "id": "databricks",
-      "title": "Databricks",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "Flink",
-      "link": "https://engineering.zalando.com/tags/apache-flink.html",
-      "active": true,
-      "key": "flink",
-      "id": "flink",
-      "title": "Flink",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "Google BigQuery",
-      "active": true,
-      "key": "google_bigquery",
-      "id": "google_bigquery",
-      "title": "Google BigQuery",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "Presto",
-      "active": true,
-      "key": "presto",
-      "id": "presto",
-      "title": "Presto",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "Spark",
-      "link": "https://engineering.zalando.com/tags/apache-spark.html",
-      "active": true,
-      "key": "spark",
-      "id": "spark",
-      "title": "Spark",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "Streamlit",
-      "active": true,
-      "moved": 0,
-      "key": "streamlit",
-      "id": "streamlit",
-      "title": "Streamlit",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "dbt",
-      "active": true,
-      "key": "dbt",
-      "id": "dbt",
-      "title": "dbt",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "AWS DynamoDB",
-      "active": true,
-      "key": "aws_dynamodb",
-      "id": "aws_dynamodb",
-      "title": "AWS DynamoDB",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "AWS S3",
-      "active": true,
-      "key": "aws_s3",
-      "id": "aws_s3",
-      "title": "AWS S3",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Amazon ElastiCache",
-      "link": "https://engineering.zalando.com/tags/redis.html",
-      "active": true,
-      "key": "aws_elasticache",
-      "id": "aws_elasticache",
-      "title": "AWS ElastiCache",
-      "timeline": [
-          {
-              "moved": 1,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Amazon MemoryDB",
-      "active": true,
-      "key": "aws_memory_db",
-      "id": "aws_memory_db",
-      "title": "AWS MemoryDB",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Amazon Redshift",
-      "active": true,
-      "key": "aws_redshift",
-      "id": "aws_redshift",
-      "title": "AWS Redshift",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Amazon Feature Store",
-      "active": true,
-      "moved": 0,
-      "key": "aws_feature_store",
-      "id": "aws_feature_store",
-      "title": "AWS Feature Store",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Apache Cassandra",
-      "link": "https://engineering.zalando.com/tags/cassandra.html",
-      "active": true,
-      "key": "cassandra",
-      "id": "cassandra",
-      "title": "Apache Cassandra",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Consul",
-      "active": true,
-      "key": "consul",
-      "id": "consul",
-      "title": "Consul",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Druid",
-      "active": true,
-      "key": "druid",
-      "id": "druid",
-      "title": "Druid",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Elasticsearch",
-      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
-      "active": true,
-      "key": "elasticsearch",
-      "id": "elasticsearch",
-      "title": "Elasticsearch",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Exasol",
-      "active": true,
-      "key": "exasol",
-      "id": "exasol",
-      "title": "Exasol",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "HBase",
-      "active": true,
-      "key": "hbase",
-      "id": "hbase",
-      "title": "HBase",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "HDFS",
-      "active": true,
-      "key": "hdfs",
-      "id": "hdfs",
-      "title": "HDFS",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Hazelcast",
-      "active": true,
-      "key": "hazelcast",
-      "id": "hazelcast",
-      "title": "Hazelcast",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Memcached",
-      "active": true,
-      "key": "memcached",
-      "id": "memcached",
-      "title": "Memcached",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "MongoDB",
-      "active": true,
-      "key": "mongodb",
-      "id": "mongodb",
-      "title": "MongoDB",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "MySQL",
-      "active": true,
-      "key": "mysql",
-      "id": "mysql",
-      "title": "MySQL",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Oracle DB",
-      "active": true,
-      "key": "oracledb",
-      "id": "oracledb",
-      "title": "Oracle DB",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "PostgreSQL",
-      "link": "https://engineering.zalando.com/tags/postgresql.html",
-      "active": true,
-      "key": "postgresql",
-      "id": "postgresql",
-      "title": "PostgreSQL",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Redis",
-      "link": "https://engineering.zalando.com/tags/redis.html",
-      "active": true,
-      "key": "redis",
-      "id": "redis",
-      "title": "Redis",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "RocksDB",
-      "active": true,
-      "key": "rocksdb",
-      "id": "rocksdb",
-      "title": "RocksDB",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Solr",
-      "active": true,
-      "key": "solr",
-      "id": "solr",
-      "title": "Solr",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "Valkey",
-      "link": "https://engineering.zalando.com/tags/redis.html",
-      "active": true,
-      "key": "valkey",
-      "id": "valkey",
-      "title": "Valkey",
-      "timeline": [
-          {
-              "moved": -1,
-              "ringId": "hold",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "datastores",
-      "label": "ZooKeeper",
-      "active": true,
-      "key": "zookeeper",
-      "id": "zookeeper",
-      "title": "ZooKeeper",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "AWS CloudFormation",
-      "active": true,
-      "key": "aws_cloudformation",
-      "id": "aws_cloudformation",
-      "title": "AWS CloudFormation",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "AWS CloudFront",
-      "active": true,
-      "key": "aws_cloudfront",
-      "id": "aws_cloudfront",
-      "title": "AWS CloudFront",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "AWS Elemental MediaConvert",
-      "active": true,
-      "key": "aws_elemental_mediaconvert",
-      "id": "aws_elemental_mediaconvert",
-      "title": "AWS Elemental MediaConvert",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "AWS Lambda",
-      "active": true,
-      "key": "aws_lambda",
-      "id": "aws_lambda",
-      "title": "AWS Lambda",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "AWS Service Catalog",
-      "active": true,
-      "key": "aws_service_catalog",
-      "id": "aws_service_catlog",
-      "title": "AWS Service Catalog",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "AWS Step Functions",
-      "active": true,
-      "key": "aws_step_functions",
-      "id": "aws_step_functions",
-      "title": "AWS Step Functions",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "Amazon Bedrock",
-      "active": true,
-      "key": "aws_bedrock",
-      "id": "aws_bedrock",
-      "title": "AWS Bedrock",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "Amazon Pinpoint",
-      "active": true,
-      "key": "aws_pinpoint",
-      "id": "aws_pinponit",
-      "title": "Amazon Pinpoint",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "Amazon SageMaker",
-      "active": true,
-      "key": "aws_sagemaker",
-      "id": "aws_sagemaker",
-      "title": "Amazon SageMaker",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "Docker",
-      "link": "https://engineering.zalando.com/tags/docker.html",
-      "active": true,
-      "key": "docker",
-      "id": "docker",
-      "title": "Docker",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "GraalVM",
-      "active": true,
-      "key": "graalvm",
-      "id": "graalvm",
-      "title": "GraalVM",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "Kotlin Multiplatform",
-      "active": true,
-      "key": "kotlin_multiplatform",
-      "id": "kotlin_multiplatform",
-      "title": "Kotlin Multiplatform",
-      "timeline": [
-          {
-              "moved": -1,
-              "ringId": "hold",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "Kubernetes",
-      "link": "https://engineering.zalando.com/tags/kubernetes.html",
-      "active": true,
-      "key": "kubernetes",
-      "id": "kubernetes",
-      "title": "Kubernetes",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "Open Policy Agent",
-      "active": true,
-      "key": "open_policy_agent",
-      "id": "open_policy_agent",
-      "title": "Open Policy Agent",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "OpenTelemetry",
-      "active": true,
-      "key": "open_telemetry",
-      "id": "open_telemetry",
-      "title": "OpenTelemetry",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "Skipper",
-      "active": true,
-      "key": "skippier",
-      "id": "skippier",
-      "title": "Skipper",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "hold",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "Slurm",
-      "active": true,
-      "key": "slurm",
-      "id": "slurm",
-      "title": "Slurm",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "hold",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "WebAssembly",
-      "active": true,
-      "key": "web_assembly",
-      "id": "web_assembly",
-      "title": "WebAssembly",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "infrastructure",
-      "label": "ZMON",
-      "active": true,
-      "key": "zmon",
-      "id": "zmon",
-      "title": "ZMON",
-      "timeline": [
-          {
-              "moved": -1,
-              "ringId": "hold",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Clojure",
-      "link": "https://engineering.zalando.com/tags/clojure.html",
-      "active": true,
-      "key": "clojure",
-      "id": "clojure",
-      "title": "Clojure",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "assess",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Dart",
-      "active": true,
-      "key": "dart",
-      "id": "dart",
-      "title": "Dart",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "trial",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Go",
-      "link": "https://engineering.zalando.com/tags/golang.html",
-      "active": true,
-      "key": "go",
-      "id": "go",
-      "title": "Go",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "GraphQL",
-      "link": "https://engineering.zalando.com/tags/graphql.html",
-      "active": true,
-      "key": "graphql",
-      "id": "graphql",
-      "title": "GraphQL",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Haskell",
-      "link": "https://engineering.zalando.com/tags/haskell.html",
-      "active": true,
-      "key": "haskell",
-      "id": "haskell",
-      "title": "Haskell",
-      "timeline": [
-          {
-              "moved": -1,
-              "ringId": "hold",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Java",
-      "link": "https://engineering.zalando.com/tags/java.html",
-      "active": true,
-      "key": "java",
-      "id": "java",
-      "title": "Java",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "JavaScript",
-      "link": "https://engineering.zalando.com/tags/javascript.html",
-      "active": true,
-      "key": "javascript",
-      "id": "javascript",
-      "title": "Javascript",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Kotlin",
-      "link": "https://engineering.zalando.com/tags/kotlin.html",
-      "active": true,
-      "key": "kotlin",
-      "id": "kotlin",
-      "title": "Kotlin",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "OpenAPI (Swagger)",
-      "link": "https://engineering.zalando.com/tags/openapi.html",
-      "active": true,
-      "key": "openapi",
-      "id": "openapi",
-      "title": "OpenAPI (Swagger)",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Python",
-      "link": "https://engineering.zalando.com/tags/python.html",
-      "active": true,
-      "key": "python",
-      "id": "python",
-      "title": "Python",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "R",
-      "active": true,
-      "key": "r",
-      "id": "r",
-      "title": "R",
-      "timeline": [
-          {
-              "moved": -1,
-              "ringId": "hold",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Rust",
-      "link": "https://engineering.zalando.com/tags/rust.html",
-      "active": true,
-      "key": "rust",
-      "id": "rust",
-      "title": "Rust",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Scala",
-      "link": "https://engineering.zalando.com/tags/scala.html",
-      "active": true,
-      "key": "scala",
-      "id": "scala",
-      "title": "Scala",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "Swift",
-      "link": "https://engineering.zalando.com/tags/swift.html",
-      "active": true,
-      "key": "swift",
-      "id": "swift",
-      "title": "Swift",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "languages",
-      "label": "TypeScript",
-      "link": "https://engineering.zalando.com/tags/typescript.html",
-      "active": true,
-      "key": "typescript",
-      "id": "typescript",
-      "title": "TypeScript",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "AWS Kinesis",
-      "active": true,
-      "key": "aws_kinesis",
-      "id": "aws_kinesis",
-      "title": "AWS Kinesis",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "AWS SNS",
-      "active": true,
-      "key": "aws_sns",
-      "id": "aws_sns",
-      "title": "AWS SNS",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "AWS SQS",
-      "active": true,
-      "key": "aws_sqs",
-      "id": "aws_sqs",
-      "title": "AWS SQS",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "Kafka",
-      "link": "https://engineering.zalando.com/tags/apache-kafka.html",
-      "active": true,
-      "key": "kafka",
-      "id": "kafka",
-      "title": "Kafka",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    },
-    {
-      "quadrant": "data_management",
-      "label": "RabbitMQ",
-      "link": "https://engineering.zalando.com/tags/rabbitmq.html",
-      "active": true,
-      "key": "rabbitmq",
-      "id": "rabbitmq",
-      "title": "RabbitMQ",
-      "timeline": [
-          {
-              "moved": 0,
-              "ringId": "adopt",
-              "date": "2022-02-08",
-              "description": "Long description for adopt"
-          }]
-    }
-  ]
-}
+    "entries": [
+      {
+        "quadrant": "data_management",
+        "label": "AWS Athena",
+        "active": true,
+        "key": "aws_athena",
+        "id": "aws_athena",
+        "title": "AWS Athena",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Adopted AWS Athena for serverless, on-demand querying of large datasets. Athena simplifies data analysis without infrastructure setup, reducing query times and costs. Next steps involve broadening data source compatibility and optimizing query performance."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "AWS EMR",
+        "active": true,
+        "key": "aws_emr",
+        "id": "aws_emr",
+        "title": "AWS EMR",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Adopted AWS EMR for scalable data processing, providing efficient, cloud-based analytics with minimal infrastructure management. EMR accelerates data transformation and supports machine learning, enhancing our analytics capabilities. Next steps include expanding integrations and optimizing cost-efficiency."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "ring": 2,
+        "label": "AWS Glue",
+        "active": true,
+        "moved": 0,
+        "key": "aws_glue",
+        "id": "aws_glue",
+        "title": "AWS Glue",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Adopted AWS Glue for its serverless ETL capabilities, enabling streamlined data integration and preparation across multiple sources. Glue simplifies complex data workflows, supporting scalable data pipelines. Future steps include refining ETL processes and expanding data catalog use."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "AWS Lake Formation",
+        "active": true,
+        "key": "aws_lake_formation",
+        "id": "aws_lake_formation",
+        "title": "AWS Lake Formation",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "assess",
+                "date": "2022-02-08",
+                "description": "Currently assessing AWS Lake Formation for efficient data lake setup and management. Lake Formation offers tools for secure data storage and access, promising faster data integration and governance. Next steps include evaluating integration ease and security controls."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "Airflow",
+        "active": true,
+        "key": "airflow",
+        "id": "airflow",
+        "title": "Airflow",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for use, emphasizing its capabilities in orchestrating data workflows and improving overall data management efficiency."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "Databricks",
+        "active": true,
+        "key": "databricks",
+        "id": "databricks",
+        "title": "Databricks",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its unified analytics platform, which integrates data engineering and machine learning capabilities, enhancing collaborative workflows and data insights."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "Flink",
+        "active": true,
+        "key": "flink",
+        "id": "flink",
+        "title": "Flink",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Under evaluation for its powerful stream processing capabilities, allowing real-time data processing and analytics"
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "Google BigQuery",
+        "active": true,
+        "key": "google_bigquery",
+        "id": "google_bigquery",
+        "title": "Google BigQuery",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its powerful serverless data warehousing solution, which facilitates fast SQL queries and analytics on large datasets while offering seamless integration with other Google Cloud services."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "Presto",
+        "active": true,
+        "key": "presto",
+        "id": "presto",
+        "title": "Presto",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Being assessed for its ability to execute high-performance queries across diverse data sources, enabling efficient analytics and providing a unified query layer for big data environments."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "Spark",
+        "active": true,
+        "key": "spark",
+        "id": "spark",
+        "title": "Spark",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its robust data processing capabilities, providing fast, in-memory computing for big data analytics and machine learning applications"
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "Streamlit",
+        "active": true,
+        "moved": 0,
+        "key": "streamlit",
+        "id": "streamlit",
+        "title": "Streamlit",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Currently being assessed for its capability to simplify the creation of data-driven web applications, enabling rapid development of interactive visualizations and dashboards for better decision-making."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "dbt",
+        "active": true,
+        "key": "dbt",
+        "id": "dbt",
+        "title": "dbt",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Currently under evaluation for its ability to enable analytics engineers to transform data in the warehouse efficiently, promoting data quality and collaboration through modular SQL development."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "AWS DynamoDB",
+        "active": true,
+        "key": "aws_dynamodb",
+        "id": "aws_dynamodb",
+        "title": "AWS DynamoDB",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its fully managed NoSQL database service, providing fast and predictable performance with seamless scalability for applications requiring low-latency data access."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "AWS S3",
+        "active": true,
+        "key": "aws_s3",
+        "id": "aws_s3",
+        "title": "AWS S3",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its scalable object storage service, offering high durability and availability for a wide range of data types, making it ideal for data lakes, backups, and big data analytics."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "Amazon ElastiCache",
+        "active": true,
+        "key": "aws_elasticache",
+        "id": "aws_elasticache",
+        "title": "AWS ElastiCache",
+        "timeline": [
+            {
+                "moved": 1,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its managed in-memory caching service, enhancing application performance by enabling low-latency data access and supporting various caching strategies."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "Amazon MemoryDB",
+        "active": true,
+        "key": "aws_memory_db",
+        "id": "aws_memory_db",
+        "title": "AWS MemoryDB",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its managed, Redis-compatible in-memory database service that offers high availability, durability, and seamless scaling, making it suitable for real-time applications and data caching needs."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "Amazon Redshift",
+        "active": true,
+        "key": "aws_redshift",
+        "id": "aws_redshift",
+        "title": "AWS Redshift",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its fast, fully managed data warehouse solution that enables scalable analytics on large datasets, providing powerful query performance and integration with various data sources."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "Amazon Feature Store",
+        "active": true,
+        "moved": 0,
+        "key": "aws_feature_store",
+        "id": "aws_feature_store",
+        "title": "AWS Feature Store",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Currently under evaluation for its managed repository that enables machine learning teams to store, manage, and serve features for model training and inference, streamlining the ML development process."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "Apache Cassandra",
+        "active": true,
+        "key": "cassandra",
+        "id": "cassandra",
+        "title": "Apache Cassandra",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "assess",
+                "date": "2022-02-08",
+                "description": "Under evaluation for its highly scalable, distributed NoSQL database capabilities, designed to handle large amounts of data across many servers with no single point of failure"
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "Druid",
+        "active": true,
+        "key": "druid",
+        "id": "druid",
+        "title": "Druid",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Currently being assessed for its real-time analytics capabilities, providing fast aggregation and query performance for large datasets, making it ideal for business intelligence applications."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "Elasticsearch",
+        "active": true,
+        "key": "elasticsearch",
+        "id": "elasticsearch",
+        "title": "Elasticsearch",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its powerful search and analytics engine, enabling fast full-text search capabilities and real-time data exploration across large volumes of data"
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "HBase",
+        "active": true,
+        "key": "hbase",
+        "id": "hbase",
+        "title": "HBase",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "assess",
+                "date": "2022-02-08",
+                "description": "Under evaluation for its distributed, scalable NoSQL database capabilities, designed to handle large amounts of sparse data across many servers, making it suitable for real-time read/write access."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "HDFS",
+        "active": true,
+        "key": "hdfs",
+        "id": "hdfs",
+        "title": "HDFS",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Currently being assessed for its distributed file system designed to store and manage large datasets across clusters of commodity hardware, providing high throughput and fault tolerance."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "Memcached",
+        "active": true,
+        "key": "memcached",
+        "id": "memcached",
+        "title": "Memcached",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its high-performance, distributed memory caching system, designed to speed up dynamic web applications by alleviating database load through efficient caching of data."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "MongoDB",
+        "active": true,
+        "key": "mongodb",
+        "id": "mongodb",
+        "title": "MongoDB",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its flexible, document-oriented NoSQL database that allows for easy scalability and real-time data processing, making it suitable for applications with evolving data structures."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "MySQL",
+        "active": true,
+        "key": "mysql",
+        "id": "mysql",
+        "title": "MySQL",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its reliable, open-source relational database management system that provides robust data handling and strong community support, ideal for a wide range of applications."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "PostgreSQL",
+        "active": true,
+        "key": "postgresql",
+        "id": "postgresql",
+        "title": "PostgreSQL",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its advanced, open-source relational database that supports complex queries and data types, making it suitable for applications requiring high performance and scalability."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "Redis",
+        "active": true,
+        "key": "redis",
+        "id": "redis",
+        "title": "Redis",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its high-performance in-memory data structure store, supporting various data types and use cases such as caching, real-time analytics, and messaging."
+            }]
+      },
+      {
+        "quadrant": "datastores",
+        "label": "ZooKeeper",
+        "active": true,
+        "key": "zookeeper",
+        "id": "zookeeper",
+        "title": "ZooKeeper",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its centralized service for maintaining configuration information, naming, and providing distributed synchronization, crucial for building distributed applications."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "Terraform",
+        "active": true,
+        "key": "terraform",
+        "id": "terraform",
+        "title": "Terraform",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its open-source infrastructure as code tool, enabling efficient management of infrastructure through declarative configuration files, promoting automation and consistency."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "AWS CloudFormation",
+        "active": true,
+        "key": "aws_cloudformation",
+        "id": "aws_cloudformation",
+        "title": "AWS CloudFormation",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its service that allows users to model and set up AWS resources, enabling automation and management of infrastructure as code to streamline deployment processes."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "AWS CloudFront",
+        "active": true,
+        "key": "aws_cloudfront",
+        "id": "aws_cloudfront",
+        "title": "AWS CloudFront",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its content delivery network (CDN) service that securely delivers data, videos, applications, and APIs with low latency and high transfer speeds, enhancing user experiences."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "AWS Lambda",
+        "active": true,
+        "key": "aws_lambda",
+        "id": "aws_lambda",
+        "title": "AWS Lambda",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its serverless compute service that automatically runs code in response to events, allowing for seamless scaling and reduced operational overhead, enhancing developer productivity."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "AWS Step Functions",
+        "active": true,
+        "key": "aws_step_functions",
+        "id": "aws_step_functions",
+        "title": "AWS Step Functions",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its serverless orchestration service that enables the coordination of microservices and AWS resources, simplifying complex workflows through visual workflows and state management."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "Amazon Bedrock",
+        "active": true,
+        "key": "aws_bedrock",
+        "id": "aws_bedrock",
+        "title": "AWS Bedrock",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Introduced as a foundational service for building and scaling generative AI applications, providing access to various foundation models and tools to accelerate development in machine learning."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "Amazon SageMaker",
+        "active": true,
+        "key": "aws_sagemaker",
+        "id": "aws_sagemaker",
+        "title": "Amazon SageMaker",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Under evaluation for its comprehensive machine learning service that enables developers to build, train, and deploy machine learning models quickly and easily, facilitating end-to-end workflow management."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "Docker",
+        "active": true,
+        "key": "docker",
+        "id": "docker",
+        "title": "Docker",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its containerization platform that allows developers to automate the deployment of applications inside lightweight, portable containers, enhancing consistency and scalability across environments."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "Kubernetes",
+        "active": true,
+        "key": "kubernetes",
+        "id": "kubernetes",
+        "title": "Kubernetes",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": ""
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "Open Policy Agent",
+        "active": true,
+        "key": "open_policy_agent",
+        "id": "open_policy_agent",
+        "title": "Open Policy Agent",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Currently undergoing evaluation as a policy engine that allows for the enforcement of fine-grained policies across various systems and services, facilitating unified policy management and compliance."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "OpenTelemetry",
+        "active": true,
+        "key": "open_telemetry",
+        "id": "open_telemetry",
+        "title": "OpenTelemetry",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its observability framework that provides APIs, libraries, agents, and instrumentation to enable the collection of metrics, logs, and traces, enhancing monitoring and performance analysis across applications."
+            }]
+      },
+      {
+        "quadrant": "infrastructure",
+        "label": "WebAssembly",
+        "active": true,
+        "key": "web_assembly",
+        "id": "web_assembly",
+        "title": "WebAssembly",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "assess",
+                "date": "2022-02-08",
+                "description": "Currently under evaluation as a binary instruction format designed for safe and efficient execution on the web, enabling high-performance applications by allowing code to run in web browsers at near-native speed."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "Go",
+        "active": true,
+        "key": "go",
+        "id": "go",
+        "title": "Go",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for its efficient and concurrent programming capabilities, making it a popular choice for cloud services and microservices, with a robust standard library and strong support for modern software engineering practices."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "GraphQL",
+        "active": true,
+        "key": "graphql",
+        "id": "graphql",
+        "title": "GraphQL",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Endorsed for its flexible query language for APIs that allows clients to request only the data they need, improving performance and developer experience compared to traditional REST APIs."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "Java",
+        "active": true,
+        "key": "java",
+        "id": "java",
+        "title": "Java",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recognized for its portability and robustness, Java is widely used for building enterprise-scale applications and web services. Its extensive ecosystem and strong community support make it a reliable choice for various software development projects."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "JavaScript",
+        "active": true,
+        "key": "javascript",
+        "id": "javascript",
+        "title": "Javascript",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Essential for modern web development, JavaScript enables interactive and dynamic user experiences. With frameworks and libraries like React and Node.js, it is pivotal in both front-end and back-end development, making it a versatile language for full-stack applications."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "Kotlin",
+        "active": true,
+        "key": "kotlin",
+        "id": "kotlin",
+        "title": "Kotlin",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Recommended for Android development and server-side applications, Kotlin offers modern programming features, seamless interoperability with Java, and enhanced safety, promoting cleaner code and reducing runtime errors."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "OpenAPI (Swagger)",
+        "active": true,
+        "key": "openapi",
+        "id": "openapi",
+        "title": "OpenAPI (Swagger)",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "OpenAPI, formerly known as Swagger, is a powerful framework for defining APIs. It provides a standard way to describe the functionality of RESTful APIs, enabling better collaboration between developers and improving API documentation. Its tooling ecosystem enhances API design, testing, and integration processes."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "Python",
+        "active": true,
+        "key": "python",
+        "id": "python",
+        "title": "Python",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Renowned for its simplicity and readability, Python is a versatile programming language widely used in web development, data analysis, artificial intelligence, and automation. Its rich ecosystem of libraries and frameworks makes it a preferred choice for both beginners and experienced developers."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "Rust",
+        "active": true,
+        "key": "rust",
+        "id": "rust",
+        "title": "Rust",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "trial",
+                "date": "2022-02-08",
+                "description": "Rust is a systems programming language focused on safety, performance, and concurrency. It is designed to prevent memory-related errors, making it a reliable choice for developing high-performance applications. With a strong emphasis on modern development practices, Rust is gaining traction in various domains, including systems programming and web assembly."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "Scala",
+        "active": true,
+        "key": "scala",
+        "id": "scala",
+        "title": "Scala",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Scala is a hybrid programming language that combines object-oriented and functional programming paradigms. It runs on the Java Virtual Machine (JVM) and is known for its concise syntax and powerful type system. Scala is widely used in big data processing, particularly with frameworks like Apache Spark, making it a popular choice among data engineers and developers."
+            }]
+      },
+      {
+        "quadrant": "languages",
+        "label": "TypeScript",
+        "active": true,
+        "key": "typescript",
+        "id": "typescript",
+        "title": "TypeScript",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "TypeScript is a superset of JavaScript that adds static typing to the language. It enables developers to catch errors early through a robust type system while maintaining compatibility with existing JavaScript code. TypeScript enhances the development experience by providing better tooling, code completion, and refactoring capabilities, making it a popular choice for large-scale web applications."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "AWS Kinesis",
+        "active": true,
+        "key": "aws_kinesis",
+        "id": "aws_kinesis",
+        "title": "AWS Kinesis",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "AWS Kinesis is a cloud-based service for real-time data processing and analytics. It allows users to collect, process, and analyze streaming data at scale, making it ideal for use cases such as log and event data collection, real-time analytics, and monitoring applications. With its ability to handle large volumes of data in real time, Kinesis empowers organizations to derive insights and react swiftly to changing data patterns."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "AWS SNS",
+        "active": true,
+        "key": "aws_sns",
+        "id": "aws_sns",
+        "title": "AWS SNS",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "AWS Simple Notification Service (SNS) is a fully managed messaging service that facilitates the sending of notifications and messages to a wide range of recipients. It supports multiple protocols, including SMS, email, and application notifications, allowing users to reach their audience effectively. AWS SNS is widely used for event-driven architectures, alerting, and workflow automation, making it an essential tool for modern cloud applications."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "AWS SQS",
+        "active": true,
+        "key": "aws_sqs",
+        "id": "aws_sqs",
+        "title": "AWS SQS",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "AWS Simple Queue Service (SQS) is a fully managed message queuing service that enables decoupled and distributed systems to communicate asynchronously. SQS allows applications to send, store, and receive messages at any scale without the need for message brokers. It supports both standard and FIFO (First-In-First-Out) queues, ensuring reliability and message order when required. SQS is widely used for building scalable microservices and serverless architectures."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "Kafka",
+        "active": true,
+        "key": "kafka",
+        "id": "kafka",
+        "title": "Kafka",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "Kafka is an open-source distributed event streaming platform designed for high-throughput, fault-tolerant, and real-time data streaming. It allows users to publish and subscribe to streams of records, process them in real-time, and store them durably. Kafka is particularly well-suited for building data pipelines and streaming applications, making it a cornerstone of modern data architectures. It provides strong durability and scalability, making it popular in both large enterprises and startups."
+            }]
+      },
+      {
+        "quadrant": "data_management",
+        "label": "RabbitMQ",
+        "active": true,
+        "key": "rabbitmq",
+        "id": "rabbitmq",
+        "title": "RabbitMQ",
+        "timeline": [
+            {
+                "moved": 0,
+                "ringId": "adopt",
+                "date": "2022-02-08",
+                "description": "RabbitMQ is a widely used open-source message broker that facilitates communication between applications through message queuing. It supports multiple messaging protocols and provides robust features such as message acknowledgment, routing, and delivery guarantees. RabbitMQ is known for its flexibility and ease of use, making it an ideal choice for applications requiring reliable messaging between distributed services. It is commonly employed in microservices architectures and event-driven systems."
+            }]
+      }
+    ]
+  }
